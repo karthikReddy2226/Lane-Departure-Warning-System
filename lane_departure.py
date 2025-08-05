@@ -50,7 +50,7 @@ def trigger_alert(frame, lines):
                     cv2.FONT_HERSHEY_SIMPLEX, 1.5, (0, 0, 255), 4)
 
 # Main execution
-video = cv2.VideoCapture("road_video3.mp4")  # Replace with 0 for webcam
+video = cv2.VideoCapture("road_video2.mp4")  # Replace with 0 for webcam
 
 while video.isOpened():
     ret, frame = video.read()
